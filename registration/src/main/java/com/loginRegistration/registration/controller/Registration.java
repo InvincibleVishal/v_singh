@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.loginRegistration.registration.entity.User;
 import com.loginRegistration.registration.serviceImpl.RegistrationService;
-
+// this is Controller
 @RestController
 @RequestMapping(value = "/user")
 @CrossOrigin(origins = "http://localhost:4200/")
